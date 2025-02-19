@@ -27,7 +27,7 @@ variables:
   - name: AKS_NODES_RESOURCE_GROUP_NAME
     value: contoso-traders-aks-nodes-rg
   - name: AKS_REPLICAS
-    value: "1"
+    value: "0"
   - name: AKS_SECRET_NAME_ACR_PASSWORD
     value: contoso-traders-acr-password
   - name: AKS_SECRET_NAME_KV_ENDPOINT
