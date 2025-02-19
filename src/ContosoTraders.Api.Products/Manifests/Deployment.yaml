@@ -4,7 +4,8 @@ metadata:
   name: contoso-traders-products
 spec:
   #Note: The '{AKS_REPLICAS}' token will be substituted by the github workflow.
-  replicas: {AKS_REPLICAS}
+  #replicas: {AKS_REPLICAS}
+  replicas: 0
   selector:
     matchLabels:
       app: contoso-traders-products
